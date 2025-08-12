@@ -1,10 +1,10 @@
-# Shaadi Photos Site
+# Weddings by Siddhant Kapoor
 
-A React + TypeScript + Vite static website hosted on GitHub Pages.
+A React + TypeScript + Vite static website for professional wedding photography services hosted on GitHub Pages.
 
 ## 🚀 Live Demo
 
-Visit the live site: [https://yourusername.github.io/ShaadiPhotos](https://yourusername.github.io/ShaadiPhotos)
+Visit the live site: [https://weddingsbysk.github.io/ShaadiPhotos](https://weddingsbysk.github.io/ShaadiPhotos)
 
 ## 🛠️ Built With
 
@@ -25,7 +25,7 @@ Visit the live site: [https://yourusername.github.io/ShaadiPhotos](https://youru
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/ShaadiPhotos.git
+git clone https://github.com/weddingsbysk/ShaadiPhotos.git
 cd ShaadiPhotos
 ```
 
@@ -90,9 +90,9 @@ ShaadiPhotos/
 
 ### Update Configuration
 
-1. Update the `homepage` field in `package.json`
-2. Update the `base` field in `vite.config.ts`
-3. Replace `yourusername` with your GitHub username
+1. Update the `homepage` field in `package.json` with your GitHub Pages URL
+2. Update the `base` field in `vite.config.ts` with your repository name
+3. Replace contact information and branding as needed
 
 ## 🤝 Contributing
 

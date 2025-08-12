@@ -2,10 +2,10 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ command }) => ({
   plugins: [react()],
-  base: '/ShaadiPhotos/', // Replace with your GitHub repository name
+  base: command === 'build' ? '/ShaadiPhotos/' : '/',
   build: {
     outDir: 'dist',
   },
-})
+}))
